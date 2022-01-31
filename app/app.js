@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const app = express()
-const port = 8080
+const port = 3000
 const path = __dirname + '/public'
 
 router.get('/', (req, res) => {
